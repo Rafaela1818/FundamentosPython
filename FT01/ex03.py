@@ -1,7 +1,11 @@
-def dobro(numero):
-    return numero * 2
+# Passo 1: solicitar valor
+numero = input("Digite um número inteiro: ")
 
-# Exemplo de uso
-if __name__ == "__main__":
-    num = int(input("Digite um número: "))
-    print("O dobro de", num, "é", dobro(num))
+# Passo 2: converter para inteiro
+numero = int(numero)
+
+# Passo 3: calcular o dobro
+dobro = numero * 2
+
+# Passo 4: exibir o resultado
+print("O dobro de", numero, "é", dobro)

@@ -1,12 +1,14 @@
-import math
+# Passo 1: solicitar valor do raio
+raio = input("Digite o valor do raio da esfera: ")
 
-def volume_esfera(raio):
-    return (4/3) * math.pi * (raio ** 3)
+# Passo 2: converter para float
+raio = float(raio)
 
-# Exemplo
-if __name__ == "__main__":
-    try:
-        raio = float(input("Digite o valor do raio da esfera: "))
-        print("O volume da esfera é:", volume_esfera(raio))
-    except ValueError:
-        print("Por favor, insira um número válido.")
+# Passo 3: definir pi
+pi = 3.14159
+
+# Passo 4: calcular volume
+volume = (4.0/3.0) * pi * (raio**3)
+
+# Passo 5: exibir resultado
+print("O volume da esfera é:", volume)
