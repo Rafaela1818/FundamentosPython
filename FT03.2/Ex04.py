@@ -1,5 +1,4 @@
-#Escreve um programa que receba dois números reais e indique qual o maior dos dois números. Considera a possibilidade de o utilizador indicar dois números iguais
-# Solicita ao usuário que insira dois números
+#Escreve um programa que receba dois números reais e indique qual o maior dos dois números. Considera a possibilidade de o utilizador indicar dois números iguais. 
 
 numero1 = float(input("Introduza o primeiro número: "))
 numero2 = float(input("Introduza o segundo número: "))
