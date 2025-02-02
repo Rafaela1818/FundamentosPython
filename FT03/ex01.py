@@ -1,8 +1,7 @@
-import math
+a=int(input("Insira um número inteiro:\n->"))
 
-numero = int(input("infique um número inteiro: \t"))
-if numero > 20:
-    numero = numero/2
-    print("o resultado da divisão so seu número por 2 é: ", round(numero, 1))
-    
-else: print("O número indicado é inferior a 20")
+if a>=20:
+    div=a/2
+    print("A metade de %f é %f" %(a,div))
+
+print("codigo não é dependente da condição")
