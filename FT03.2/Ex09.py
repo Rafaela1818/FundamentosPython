@@ -5,7 +5,7 @@
 print("Introduza os seguintes dados:")
 nome=input("Nome:")
 idade= int(input("Idade:"))
-peso= float(input("Peso em kg:"))
+peso= float(input("Peso:"))
 altura= float(input("Altura:"))
 
 def classificar_imc(imc):
