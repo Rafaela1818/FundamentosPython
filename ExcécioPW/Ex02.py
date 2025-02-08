@@ -8,16 +8,19 @@ operação =input("Introduz ir a operação matemática (+,-,* e /): ")
 match operação:
     case "+":
         resultado= num1 + num2
-    case"-":
+    case "-":
         resultado= num1 - num2
-    case"*":
+    case "*":
         resultado= num1 * num2
-    case"/":
-        resultado= num1 // num2
+    case "/":
+        if num2 == 0:
+            resultado="Não é possivel fazer a divisão por 0"
+        else: 
+            reseltado= num1 / num2   
     case _:
         resultado = "Operação invalida"
         
         
-print("O resultado é {resultado}")
+print("O resultado:", resultado)
         
             
