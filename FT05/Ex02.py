@@ -24,20 +24,3 @@ print(num)
 #Adicionar um elemento ao fim
 num.insert(len(num),123)
 print(num)
-
-
-#Remover primeira ocorrencia do elemento 123
-num.remove(123)
-print(num)
-
-#Remover elemento no indice 2 
-num.pop(2)
-print(num)
-
-#Devolve o tamanho da lista
-print("Tamanho da Lista é:", len(num))
-
-#Limpar lista
-
-num.clear()
-print(num)
